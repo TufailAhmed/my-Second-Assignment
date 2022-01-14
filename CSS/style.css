@@ -13,6 +13,7 @@ body{
     font-family: 'Poppins', sans-serif;
     max-width: 1200px;
     margin: 60px;
+    background-color:whitesmoke;
 }
 /* ---------------------------------------
 -----------------navbar starts here ------*/
@@ -47,3 +48,38 @@ body{
 }
 /* -----navbar ends here -----
 ------------------------------*/
+/* ---------------------------
+------section-one starts here ----*/
+.section-one{
+    display: flex;
+    align-items: center;
+}
+.container-one-left{
+    width: 650px;
+}
+.container-one-left>h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.container-one-left>p{
+    font-size: 20px;
+}
+.container-one-left>button{
+    background-color:fuchsia;
+    color:white;
+    width: 200px;
+    height: 35px; 
+    font-size: 20px;
+    font-weight:800;
+    border-radius:5%;
+}
+.container-one-right{
+    width:40%
+    padding-left:115px;
+    background-image: url(images/Circle design.svg);
+    background-repeat:none;
+}
+
+
+/* ---------------------------
+------section-one ends here ----*/
