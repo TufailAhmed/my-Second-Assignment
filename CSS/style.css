@@ -1,0 +1,49 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+</style>
+/* common section */
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 60px;
+}
+/* ---------------------------------------
+-----------------navbar starts here ------*/
+.container{
+    display: flex;
+    align-items: center;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    padding-left: 500px;
+    
+}
+.nav-text>ul{
+    display: flex;
+    list-style: none;
+    
+    
+}
+.nav-text>ul>li>a{
+    padding-left: 20px;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+.nav-icons{
+    padding-left: 20px;
+
+}
+.nav-icons>i{
+    padding-left: 20px;
+}
+/* -----navbar ends here -----
+------------------------------*/
