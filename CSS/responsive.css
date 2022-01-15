@@ -1,4 +1,6 @@
-@media only screen and (max-width:688px){
+
+
+@media screen and (max-width:688px){
     body{
         box-sizing: border-box;
         max-width: 688px;
@@ -50,10 +52,9 @@
     .footer{
         margin-top: 400px;
         width: 80%;
-        height: 200px;
+        height: 100px;
+        display: none;
     }
-.social-media{
-    height: -300px;
-}
+
     
    }
