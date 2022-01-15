@@ -3,12 +3,12 @@
 </style>
 /* common section */
 *{
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 html{
     scroll-behavior: smooth;
-    
 }
+
 body{
     font-family: 'Poppins', sans-serif;
     max-width: 1200px;
@@ -124,7 +124,7 @@ body{
     background-color: white;
 }
 .card-one-container img{
-    width: 90%;
+    width: 80%;
     padding-left: 8px;
 }
 .rating{
@@ -209,6 +209,18 @@ body{
     color: white;
     text-align: center;
 }
+.social-media>li{
+    list-style: none;
+    
+}
+.social-media>li>a{
+    color: tomato;
+    margin: 15px;  
+}
+
    /*--------------------------------
    section footer ends here
    -------------------------------*/
+   /* --------Media Queries------- */
+   
+        

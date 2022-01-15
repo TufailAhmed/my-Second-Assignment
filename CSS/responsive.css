@@ -1,0 +1,12 @@
+@media only screen and (max-width:688px){
+    body{
+        
+    }
+    .card-one-container{
+        width:100%;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    
+   }
