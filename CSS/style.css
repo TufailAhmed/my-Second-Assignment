@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 </style>
 /* common section */
-*{
-    box-sizing:border-box;
-}
 html{
     scroll-behavior: smooth;
 }
@@ -12,12 +9,14 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
     max-width: 1200px;
+    box-sizing: border-box;
     margin: 60px;
     background-color:rgb(241, 233, 219);
 }
 /* ---------------------------------------
 -----------------navbar starts here ------*/
 .container{
+    box-sizing: border-box;
     display: flex;
     align-items: center;
 }
@@ -51,6 +50,7 @@ body{
 /* ---------------------------
 ------section-one starts here ----*/
 .section-one{
+    box-sizing: border-box;
     display: flex;
     align-items: center;
 }
@@ -141,6 +141,7 @@ body{
 }
 .card-container{
     max-width:1000px;
+    box-sizing: border-box;
     margin-left: 80px;
     margin-right: 130px;
     display:grid;
@@ -179,8 +180,8 @@ body{
     width:40%
 }
 .more-items{
-    margin-top: 50px;
-    margin-left: 110px;
+    margin-top: 30px;
+    margin-bottom:100px;
 }
 .more-items:hover{
     display: block;
@@ -190,8 +191,8 @@ body{
     
 }
 .more-items img{
-    padding-left: ;
-    padding-left: 20px
+    padding-left:60px ;
+    margin-left: 20px
     width: 25%;
     
 }
