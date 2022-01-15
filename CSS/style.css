@@ -13,7 +13,7 @@ body{
     font-family: 'Poppins', sans-serif;
     max-width: 1200px;
     margin: 60px;
-    background-color:whitesmoke;
+    background-color:rgb(241, 233, 219);
 }
 /* ---------------------------------------
 -----------------navbar starts here ------*/
@@ -64,7 +64,7 @@ body{
 .container-one-left>p{
     font-size: 20px;
 }
-.container-one-left>button{
+.btn{
     background-color:fuchsia;
     color:white;
     width: 200px;
@@ -75,11 +75,14 @@ body{
 }
 .container-one-right{
     width:40%
-    padding-left:115px;
-    background-image: url(images/Circle design.png);
-    background-repeat:none;
+    padding-left:115px;  
 }
+.container-one-right:hover{
+    height: 400px;
+    transition: transform 4s ease-in;
+    transform: rotate(-270deg);
 
+}
 
 /* ---------------------------
 ------section-one ends here ----*/
@@ -157,13 +160,52 @@ body{
    /*--------------------------------
    section-three-grid ends here
    -------------------------------*/
+/* -----------------------------
+------Order Now section starts here----------
+------------------------------- */
+.last-container{
+    width: 800px;
+    height: 780px;
+    background-color: cornsilk;
+    margin-left: 200px;
+    border-radius: 5%;
+    margin-bottom: 30px;
+}
+.order-section{
+    padding-top: 50px;
+    margin-left: 107px;
+}
+.btn:hover{
+    width:40%
+}
+.more-items{
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.more-items:hover{
+    display: block;
+    transition: transform 4s ease-in-out;
+    transform: rotate(50deg);
+    justify-content: center
+    
+}
+.more-items img{
+    padding-left: ;
+    padding-left: 20px
+    width: 25%;
+    
+}
+/* -----------------------------
+------Order Now section ends here----------
+------------------------------- */
+
    /*--------------------------------
    section-footer starts here
    -------------------------------*/
 .footer{
     width:100%;
-    border: 5px solid black;
-    background-color: black;
+    border: 5px solid rgb(30, 61, 61);
+    background-color:rgb(30, 61, 61);
     color: white;
     text-align: center;
 }
